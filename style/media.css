@@ -1,0 +1,87 @@
+@media (max-width: 1024px) {
+    .left-snicers {
+
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .nike2 {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .wrapper-box {
+        flex-wrap: wrap;
+    }
+
+    .right-snicers__inner {
+        max-width: 470px;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+@media(max-width: 850px) {
+    .menu_icon {
+        display: block;
+        color: white;
+        font-size: 48px;
+    }
+
+    .list {
+        right: -100%;
+        position: fixed;
+        transition: right .4s linear;
+        flex-direction: column;
+        backdrop-filter: blur(15px);
+        align-items: flex-end;
+        box-shadow: 1px 1px 5px #fff;
+    }
+
+    .menu_icon:focus+.list {
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 660px) {
+    .form {
+        margin-bottom: 60px;
+    }
+
+    .footer__box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 660px) {
+    .right-snicers__inner {
+        max-width: 470px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 515px) {
+    .form {
+        margin-bottom: 60px;
+    }
+
+    .footer__box {
+        flex-direction: column;
+    }
+}
